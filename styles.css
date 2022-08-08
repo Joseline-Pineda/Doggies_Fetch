@@ -28,7 +28,7 @@ div {
 }
 
 img {
-  max-width: 100%;
+  max-width: 97.5%;
 }
 
 h1 {
@@ -74,9 +74,12 @@ h2 {
   height: 400px;
   object-fit: cover;
   transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+  border-color: #FF87CA;
+  border-style: solid;
+  border-width: 5px;
 }
 .card .card-title {
-  background: #0fc;
+  background: #FFC4E1;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
   transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
   margin: -5px 0 0 -20px;
@@ -93,7 +96,7 @@ h2 {
   height: 0;
   border-style: solid;
   border-width: 0 0 20px 20px;
-  border-color: transparent transparent #00b38f transparent;
+  border-color: transparent transparent #FFC4E1 transparent;
   transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
   z-index: -1;
 }
@@ -112,7 +115,7 @@ h2 {
   z-index: -1;
 }
 .card .card-detail {
-  background: #00e6b8;
+  background: #FFC4E1;
   background: #eee;
   height: auto;
   margin: 0;
@@ -162,7 +165,7 @@ h2 {
   background: transparent;
 }
 .card [type=checkbox]:checked + .tgl-btn span {
-  background: #0fc;
+  background: #FFC4E1;
   width: 0;
 }
 .card [type=checkbox]:checked + .tgl-btn span::before {
